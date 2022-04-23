@@ -10,7 +10,7 @@ on:
 
 env: 
   AWS_REGION: eu-west-2
-  ECR_REPOSITORY: 444444000111.dkr.ecr.eu-west-2.amazonaws.com/express:latest
+  ECR_REPOSITORY: 444444000111.dkr.ecr.eu-west-2.amazonaws.com/express
   SHORT_SHA: $(echo ${{ github.sha }} | cut -c 1-8)
 
 jobs:
